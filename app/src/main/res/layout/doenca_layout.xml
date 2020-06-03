@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Doenca_Activity">
+
+    <TextView
+        android:id="@+id/doencaNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="COVID-19"
+        android:textSize="36sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/textoSintomas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sintomas"
+        android:layout_margin="25dp"
+        android:textSize="28sp"/>
+
+    <TextView
+        android:id="@+id/textoPrevencao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:text="Prevençao"
+        android:textSize="28sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:onClick="voltarMain"
+        android:text="voltar"/>
+
+</LinearLayout>

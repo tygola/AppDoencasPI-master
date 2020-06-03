@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/editTextDoencaID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/editTextNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:hint="Nome" />
+
+        <EditText
+            android:id="@+id/editTextSintomas"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:hint="Sintomas" />
+
+        <EditText
+            android:id="@+id/editTextPrevencao"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:hint="Prevenção" />
+
+        <Button
+            android:id="@+id/btnAddUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cadastrar Doença"
+            android:textAllCaps="false" />
+
+        <ListView
+            android:id="@+id/listViewDoencas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linearLayout" />
+
+
+    </LinearLayout>
+
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone" />
+
+
+</RelativeLayout>

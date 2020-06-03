@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AppDoencasPI</string>
+    <string name="login">Login</string>
+    <string name="senha">Senha</string>
+    <string name="logar">Logar</string>
+    <string name="enciclop_dia_doen_as">Enciclopédia Doenças</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="email">email</string>
+    <string name="confirmar_senha">Confirmar Senha</string>
+    <string name="voltar">voltar</string>
+</resources>
